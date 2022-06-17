@@ -44,11 +44,23 @@
 							{
 								"source": {
 									"name": "CustomerID",
-									"type": "Int32",
+									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
 									"name": "CustID",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "NameStyle",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "NameStyle",
+									"type": "String",
 									"physicalType": "String"
 								}
 							},
@@ -71,7 +83,8 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "FName",
+									"name": "FirstName",
+									"type": "String",
 									"physicalType": "String"
 								}
 							},
@@ -82,7 +95,8 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "MName",
+									"name": "MiddleName",
+									"type": "String",
 									"physicalType": "String"
 								}
 							},
@@ -93,7 +107,8 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "LName",
+									"name": "LastName",
+									"type": "String",
 									"physicalType": "String"
 								}
 							},
